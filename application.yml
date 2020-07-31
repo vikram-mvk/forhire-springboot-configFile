@@ -26,11 +26,9 @@ eureka:
         defaultZone: http://localhost:8761/eureka/
 
 USER-MICROSERVICE:
-      endpoints:
-            endpoint:
-                  uri: http://USER-MICROSERVICE/user/api/getUserNamefromId
-            endpoint:
-                  uri: http://USER-MICROSERVICE/user/api/getUserinRequest
+      getUserNameFromId: http://USER-MICROSERVICE/user/api/getUserNamefromId
+      getUserInRequest : http://USER-MICROSERVICE/user/api/getUserinRequest
+
 POST-MICROSERVICE:
-      endpoints:
+      
             
