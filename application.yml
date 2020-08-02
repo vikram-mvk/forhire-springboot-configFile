@@ -30,6 +30,6 @@ USER-MICROSERVICE:
       URLgetUserInRequest : http://USER-MICROSERVICE/user/api/getUserInRequest
 
 POST-MICROSERVICE:
-      photoLocation: "C:\Users\mail2\Desktop\Spring Projects\ForHire-React-Spring\ForHire - Frontend\forhire\public\img\posts\"
+      photoLocation: "C:/Users/mail2/Desktop/Spring Projects/ForHire-React-Spring/ForHire - Frontend/forhire/public/img/posts"
       
             
