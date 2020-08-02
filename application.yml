@@ -26,9 +26,10 @@ eureka:
         defaultZone: http://localhost:8761/eureka/
 
 USER-MICROSERVICE:
-      getUserNameFromId: http://USER-MICROSERVICE/user/api/getUserNameFromId
-      getUserInRequest : http://USER-MICROSERVICE/user/api/getUserInRequest
+      URLgetUserNameFromId: http://USER-MICROSERVICE/user/api/getUserNameFromId
+      URLgetUserInRequest : http://USER-MICROSERVICE/user/api/getUserInRequest
 
 POST-MICROSERVICE:
+      photoLocation: "C:\Users\mail2\Desktop\Spring Projects\ForHire-React-Spring\ForHire - Frontend\forhire\public\img\posts\"
       
             
